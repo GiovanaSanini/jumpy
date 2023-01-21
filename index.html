@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <title>Login Jumpy</title>
+</head>
+<body>
+    <header>
+        <img src="logo.svg" class="logo">
+    </header>
+        
+    <section>
+        <img src="jumpy.png" class="jumpy">
+        <h1>Bem vindo ao Jumpy!</h1>
+        <form class="form" name="infos"  method="post" id="registrationForm">
+        <div>
+            <label for="firstname">Nome Completo:</label><br>
+            <input type="text" name="firstname" placeholder="Nome completo" minlength="10" required>
+        </div>
+        <div>
+            <label>Email:</label><br>
+            <input type="email" name="email" placeholder="email@email.com" required>
+        </div>
+        <div>
+            <label>Telefone:</label><br>
+            <input type="number" name="telefone" placeholder="(00) 00000-0000" required minlength="11" maxlength="11">
+        </div>
+        <div>
+            <label>CPF:</label><br>
+            <input type="number" name="cpf" placeholder="000.000.000-00" required minlength="11" maxlength="11">
+        </div>
+        <div>
+            <label>Senha:</label><br>
+            <input type="password" name="senha" placeholder="*********" required>
+        </div>
+        <div>
+            <br><button id="submit" type="submit">Cadastrar</button>
+        </div>
+    </form>
+    </section>
+</body>
+</html>

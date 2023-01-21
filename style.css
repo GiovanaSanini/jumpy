@@ -1,0 +1,86 @@
+body{
+    background-color:  #1E1E1E;
+}
+
+.logo{
+    padding: 50px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.jumpy{
+    width: 300px;
+    margin-left: 600px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FFFFFF;
+    
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 600px;
+    
+}
+
+label{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 15;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form{
+    width: 50%;
+    margin-left: 550px;
+}
+
+input{
+    height: 32px;
+    width: 450px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #181818;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+input::placeholder{
+    font-family: 'Raleway', sans-serif;
+    color: #616161;
+    margin-left: 10px;
+}
+
+button{
+    padding: 20px 36px;
+    width: 450px;
+    height: 48px;
+    left: 509px;
+    top: 804px;
+    background: #0C70F2;
+    border-radius: 6px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.campo{
+    overflow: hidden;
+}
